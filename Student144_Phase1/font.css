@@ -1,0 +1,39 @@
+/*Font section*/
+/*Fonts from fontsquirrel.com*/
+@font-face{ 
+	font-family: 'Junction';
+	src: url('Fonts/Junction/Junction-webfont.eot');
+	src: url('Fonts/Junction/Junction-webfont.eot?iefix') format('eot'),
+	     url('Fonts/Junction/Junction-webfont.woff') format('woff'),
+	     url('Fonts/Junction/Junction-webfont.ttf') format('truetype'),
+	     url('Fonts/Junction/Junction-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: "Alex Brush";
+	src: url('Fonts/alex-brush/AlexBrush-Regular.ttf');
+	src: url('Fonts/alex-brush/AlexBrush-Regular.ttf') format('truetype');
+}
+@font-face{ 
+/*small head*/
+	font-family: 'Capsuula';
+	src: url('Fonts/capsuula/Capsuula-webfont.eot');
+	src: url('Fonts/capsuula/Capsuula-webfont.eot?iefix') format('eot'),
+	     url('Fonts/capsuula/Capsuula-webfont.woff') format('woff'),
+	     url('Fonts/capsuula/Capsuula-webfont.ttf') format('truetype'),
+	     url('Fonts/capsuula/Capsuula-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'Caviar';
+	src: url('Fonts/Caviar/CaviarDreams-webfont.eot');
+	src: url('Fonts/Caviar/CaviarDreams-webfont.eot?iefix') format('eot'),
+	     url('Fonts/Caviar/CaviarDreams-webfont.woff') format('woff'),
+	     url('Fonts/Caviar/CaviarDreams-webfont.ttf') format('truetype'),
+	     url('Fonts/Caviar/CaviarDreams-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'Worstveld Sling';
+	src: url('Fonts/Worstveld_Sling/2FD8A9_0_0.eot');
+	src: url('Fonts/Worstveld_Sling/2FD8A9_0_0.eot?iefix') format('eot'),
+	     url('Fonts/Worstveld_Sling/2FD8A9_0_0.woff') format('woff'),
+	     url('Fonts/Worstveld_Sling/2FD8A9_0_0.ttf') format('truetype');
+}

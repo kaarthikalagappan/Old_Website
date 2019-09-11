@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/index.php</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/collection.php</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/login.php</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/about.php</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/contact.php</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/register.php</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://student144.webdev.seminolestate.edu/Student144_Phase1/validation/citation.pdf</loc>
+  <lastmod>2015-12-03T19:15:26+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+</url>
+</urlset>

@@ -1,0 +1,219 @@
+body{
+	margin: 0 auto;
+	margin-top: -19vh;
+	padding: 0;
+	font-family: Lato, Arial, sans-serif;
+	font-weight: 300;
+	width: auto;
+}
+
+::-webkit-scrollbar-track{
+	background-color: #6EB400;
+	border-radius: 10px;
+}
+::-webkit-scrollbar{
+	width: .67em;
+	background-color: #54DA00;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #0070C4;
+	border-radius: 10px;
+}
+
+#sideNav{
+	background-color: rgba(165,240,187,.98);
+	display: inline-block;
+	width: 20%;
+	position: fixed;
+	height: 100vh;
+	z-index: 4;
+	overflow: hidden;
+	-webkit-transform: translate(-290px); /* Safari */
+    transform: translate(-290px);
+	transition: .5s ease;
+}
+#navButton {
+	-webkit-transform: translate(0px, 23px); /* Safari */
+    transform: translate(0px, 23px);
+	position: fixed;
+	z-index: 5;
+}
+#navButtonSmall {
+	-webkit-transform: translate(0px, 12px); /* Safari */
+    transform: translate(0px, 12px);
+	position: fixed;
+	z-index: 3;
+	visibility: hidden;
+}
+nav ul{
+  list-style-type: none;
+  font-family: Junction, Arial, sans-serif;
+  font-size: 1.9em;
+  margin-top: 20%;
+}
+nav ul li{
+  margin-top: 1%;
+  margin-bottom: 9%;
+  padding-top: 4.7%;
+  margin-left: -50px;
+  text-align: center;
+  transition: .2s ease;
+}
+nav a{
+  text-decoration: none;
+  color: #000000;
+}
+nav ul li:hover{
+	background-color: #34cf6d;
+	transition: .5s ease;
+}
+#text_area, span, p {
+  z-index: 0;
+  font-size: 1.25em;
+}
+header h1 {
+  font-size: 5em;
+  color: #000000;
+  font-family: "Worstveld Sling", Arial, sans-serif;
+  padding-left: 2%;
+  margin-top: 1.59%;
+  text-align: center;
+}
+#hOneSmall {
+  font-size: 2.5em;
+  color: #000000;
+  font-family: "Worstveld Sling", Arial, sans-serif;
+  padding-left: 1.2%;
+  margin-top: 1%;
+  font-weight: bold;
+  text-align: center;
+}
+header {
+  background-color: #FFFF3D;
+  display: block;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  overflow: hidden;
+  z-index: 2;
+  height: 20vh;
+}
+#headerSmall {
+  background-color: #FFFF3D;
+  display: block;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  overflow: hidden;
+  z-index: 2;
+  height: 65px;
+  display: none;
+}
+#navLogo{
+	font-family: "Worstveld Sling", Arial, sans-serif;
+	font-size: 4em;
+	text-align: center;
+	transition: .5s ease;
+	margin-bottom: -13%;
+}
+.small_head {
+  font-family: "Great Vibes", Capsuula, Arial, sans-serif;
+  font-size: 2.8em;
+  padding: .5% 8% .3% 8%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 3%;
+}
+#background_one .small_head {
+  border: 2px solid #FF7481;
+  margin-top: 23vh;
+}
+#background_two .small_head {
+  border: 2px solid #B1EDE8;
+}
+#background_three .small_head {
+  border: 2px solid #8CFF62;
+}
+#background_four .small_head {
+  border: 2px solid #fb5cbb;
+}
+#background_one {
+  margin-top: 19vh;
+}
+#background_one, #background_two, #background_three, #background_four {
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+#background_two, #background_three, #background_four{
+  margin-top: 3vh;
+}
+#first_left {
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+}
+#first_right {
+  float: right;
+  width: 48%;
+  margin-right: 1%;
+}
+#checking, #checking2, #checking3, #checking4, #checking5 {
+  width: 200px;
+  height: 200px;
+  margin-left: 3%;
+}
+#checking2 {
+  margin-top: -200px;
+  margin-left: 300px;
+}
+#checking3 {
+  margin-top: -200px;
+  margin-left: 555px;
+}
+#checking4 {
+  margin-top: -200px;
+  margin-left: 820px;
+}
+#checking5 {
+  margin-top: -200px;
+  margin-left: 1080px;
+  margin-bottom: 5%;
+}
+/*mouse over text set of the element; constant*/
+.checktext {
+  margin-top: -101.5%;
+  background-color: rgba(255, 255, 255, .85);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+#container_Checking{
+	overflow: auto;
+}
+footer {
+  font-style: italic;
+  font-size: 0.9em;
+  z-index: 0;
+  text-align: center;
+  background-color: #FFFF3D;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+footer a{
+	color: #000000;
+}
+footer a:hover{
+	text-decoration: none;
+}
+
+@media (max-width: 670px) {
+  header h1  {
+	font-size: 4em;
+  }
+}
